@@ -50,7 +50,7 @@ def total_gross(source)
   gross = 0
   index = 0 
   while index < source.length do 
-    d = directors_totals(source)[index]
+    d = directors_totals(source)
     l = list_of_directors(source)[index]
     index += 1 
     puts d
